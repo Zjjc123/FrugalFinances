@@ -1,11 +1,13 @@
- # FrugalFinances
+ # Frugal Finances
+ Made by Jason Zhang
  
+ For Mr. Menenberg's Blog "Frugal Finaces"
  ## v1.1
  
  ### Features
  
  - Removed Action Bar
- - Removed Annoying Weebly Footer through JavaScript
+ - Removed Annoying Weebly Footer through JavaScript injection
 
  ## v1.0
  
@@ -13,4 +15,4 @@
  
  - Basic App
  - Launcher Icon
- - Disabled Outer Domain Navigation
+ - Disabled Outside Domain Navigation
