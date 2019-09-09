@@ -1,7 +1,7 @@
  # Frugal Finances
  Made by Jason Zhang
  
- For Mr. Menenberg's Blog "Frugal Finaces"
+ For Mr. Menenberg's Blog "Frugal Finances"
  ## v1.1
  
  ### Features
