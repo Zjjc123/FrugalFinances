@@ -7,6 +7,8 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import org.w3c.dom.Document;
+
 public class MainActivity extends AppCompatActivity {
 
     private WebView myWebView;
@@ -41,6 +43,19 @@ public class MainActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 return false;
+            }
+
+            @Override
+            public void onPageFinished(WebView view, String url)
+            {
+                super.onPageFinished(view, url);
+                myWebView.loadUrl
+                        ("javascript:" +
+                                "(function() { " +
+                                    "var element = document.getElementsByClassName('footer-published-ab-powered-by');"
+                                + "for (var i = 0; i < element.length; i++)" +
+                                "  element[i].remove();" +
+                                "})()");
             }
         });
     }

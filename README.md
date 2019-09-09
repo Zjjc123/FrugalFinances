@@ -1,5 +1,12 @@
  # FrugalFinances
  
+ ## v1.1
+ 
+ ### Features
+ 
+ - Removed Action Bar
+ - Removed Annoying Weebly Footer through JavaScript
+
  ## v1.0
  
  ### Features
